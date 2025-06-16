@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "westside-x3"
+version = "0.1.0"
+description = ""
+authors = ["Brad Lindblad <brad.lindblad@logos.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "^4.33.0"
+webdriver-manager = "^4.0.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
