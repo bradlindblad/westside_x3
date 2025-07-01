@@ -35,7 +35,7 @@ def get_workout(URL: str):
     # Remove top 2 and bottom 15 lines
     trimmed = lines[2:-15]
 
-    fname = "workouts/" + extract_first_two_numbers(URL) + ".txt"
+    fname = "foundations/" + extract_first_two_numbers(URL) + ".txt"
     with open(fname, "w", encoding="utf-8") as f:
         f.writelines([line + "\n" for line in trimmed])
 
